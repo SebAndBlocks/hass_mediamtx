@@ -1,7 +1,7 @@
 {
-  "name": "RTSP Simple Server Add-on",
+  "name": "Media MTX Server Add-On",
   "version": "v0.17.6",
-  "slug": "rtsp_simple_server",
+  "slug": "mediamtxserver",
   "description": "Create RTSP server to broadcast streams, thanks to @aler9 - https://github.com/aler9/rtsp-simple-server",
   "arch": [
     "aarch64",
@@ -26,5 +26,5 @@
 	  "RTSP_PATHS_ALL_RUNONDEMAND": "list(echo 'incoming')",
 	  "RTSP_PATHS_ALL_RUNONDEMANDRESTART": "list(yes)"
   },
-  "image": "aler9/rtsp-simple-server"
+  "image": "bluenviron/mediamtx"
 }
